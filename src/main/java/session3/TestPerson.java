@@ -5,7 +5,7 @@ public class TestPerson {
 
         Person joao = new Person("João", "55");
 
-        Person julia = new Person("Julia", "85");
+        Person julia = new Person("Julia", "75");
 
         Person maria = new Person();
         maria.setAge("21");

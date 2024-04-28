@@ -26,7 +26,8 @@ public class Person {
     }
 
     public String toString() {
-        return instanceName + " is " + age + " years old (" + getAgeGroupClassification() + ")";
+        return instanceName + " is " + age + " years old (" + getAgeGroupClassification()
+                + ", " + getDecade(Integer.parseInt(this.age)) + ")";
     }
 
     public String getAgeGroupClassification() {
@@ -53,5 +54,22 @@ public class Person {
 
         }
         return ageClassification;
+    }
+
+    public String getDecade(int age) {
+        String decadeString = "";
+        int decadeNumber = age / 10;
+        int j = 0;
+
+        for (int i = j = 0; i < (decadeNumber + 1); i++, j++) {
+            String decade = "Decade " + (age / 10);
+            if (i == (decadeNumber)) {
+                decadeString = decade;
+            }
+        }
+        int modyear = age % 10;
+        decadeString += ", Year " + modyear;
+
+        return decadeString;
     }
 }

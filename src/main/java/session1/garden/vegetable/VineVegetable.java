@@ -1,4 +1,4 @@
-package garden.vegetable;
+package session1.garden.vegetable;
 
 public class VineVegetable {
 

@@ -1,4 +1,4 @@
-package nursery.vegetable;
+package session1.nursery.vegetable;
 
 public class VineVegetable {
     public static void main(String[] args){

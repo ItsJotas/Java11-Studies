@@ -1,3 +1,5 @@
+package session1;
+
 import static java.lang.Math.PI;
 import static java.lang.Math.sqrt;
 public class TestImportStatic {
